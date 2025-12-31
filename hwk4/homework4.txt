@@ -1,1 +1,478 @@
+Step a:
+git config --global user.name "Tuna Bayramoğlu"
+git config --global user.email "tunabayram34@gmail.com"
+git config --global core.editor "nano"
+
+git config --list
+
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Tuna Bayramoğlu
+user.email=tunabayram34@gmail.com
+core.editor=nano
+
+
+Step b:
+git clone https://github.com/tunabayramoglu/soft2101-hw4-repo
+Cloning into 'soft2101-hw4-repo'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (4/4), done.
+
+cd soft2101-hw4-repo
+
+ls
+hwk4/
+
+ls .git
+HEAD    description  index  logs/     packed-refs
+config  hooks/       info/  objects/  refs/
+
+
+Step c:
+Studying at [Işık Üniversitesi İstanbul/Şile](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+
+
+Step d:
+cat .gitignore
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+git add .gitignore
+
+git commit -m "setting up gitignore"
+commit beca6227d23d784a4bc4f09647a4d2e61023bc3f (HEAD -> main)
+Author: Tuna Bayramoğlu <tunabayram34@gmail.com>
+Date:   Wed Dec 31 16:53:17 2025 +0300
+
+    setting up gitignore
+
+
+
+Step e:
+git branch feature-1
+
+git branch
+  feature-1
+* main
+
+git checkout feature-1
+
+mkdir hmk1
+
+ls
+README.md  hmk1/  hwk4/
+
+cd hmk1
+
+
+Step f:
+nano RangePrinter.java
+
+git add RangePrinter.java
+warning: in the working copy of 'hmk1/RangePrinter.java', LF will be replaced by CRLF the next time Git touches it
+
+git commit -m "satifying requirement one"
+[feature-1 4d794bd] satifying requirement one
+ 1 file changed, 22 insertions(+)
+ create mode 100644 hmk1/RangePrinter.java
+
+Step a:
+git config --global user.name "Tuna Bayramoğlu"
+git config --global user.email "tunabayram34@gmail.com"
+git config --global core.editor "nano"
+
+git config --list
+
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Tuna Bayramoğlu
+user.email=tunabayram34@gmail.com
+core.editor=nano
+
+
+Step b:
+git clone https://github.com/tunabayramoglu/soft2101-hw4-repo
+Cloning into 'soft2101-hw4-repo'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (4/4), done.
+
+cd soft2101-hw4-repo
+
+ls
+hwk4/
+
+ls .git
+HEAD    description  index  logs/     packed-refs
+config  hooks/       info/  objects/  refs/
+
+
+Step c:
+Studying at [Işık Üniversitesi İstanbul/Şile](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+
+
+Step d:
+cat .gitignore
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+git add .gitignore
+
+git commit -m "setting up gitignore"
+commit beca6227d23d784a4bc4f09647a4d2e61023bc3f (HEAD -> main)
+Author: Tuna Bayramoğlu <tunabayram34@gmail.com>
+Date:   Wed Dec 31 16:53:17 2025 +0300
+
+    setting up gitignore
+
+
+
+Step e:
+git branch feature-1
+
+git branch
+  feature-1
+
+git checkout feature-1
+
+
+mkdir hmk1
+
+ls
+README.md  hmk1/  hwk4/
+
+cd hmk1
+
+
+Step f:
+nano RangePrinter.java
+
+git add RangePrinter.java
+warning: in the working copy of 'hmk1/RangePrinter.java', LF will be replaced by CRLF the next time Git touches it
+
+git commit -m "satifying requirement one"
+[feature-1 4d794bd] satifying requirement one
+ 1 file changed, 22 insertions(+)
+ create mode 100644 hmk1/RangePrinter.java
+
+
+git log
+commit 4d794bd7ad6a73adc2b889fea7cb4cc6e6385c13 (HEAD -> feature-1)
+Author: Tuna Bayramoğlu <tunabayram34@gmail.com>
+Date:   Wed Dec 31 17:14:57 2025 +0300
+
+    satifying requirement one
+
+commit beca6227d23d784a4bc4f09647a4d2e61023bc3f (main)
+Author: Tuna Bayramoğlu <tunabayram34@gmail.com>
+Date:   Wed Dec 31 16:53:17 2025 +0300
+
+    setting up gitignore
+
+commit ab533e91acfa3642c80bb2e8393fd0eb3584fda5 (origin/main, origin/HEAD)
+Author: Tuna Bayramoğlu <64008935+tunabayramoglu@users.noreply.github.com>
+Date:   Wed Dec 31 16:22:36 2025 +0300
+
+    Create homework4.txt
+
+git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+cd ../
+
+ls
+README.md  hmk1/  hwk4/
+
+cd hmk1
+
+ls
+
+
+Step g:
+git merge feature-1
+Updating beca622..4d794bd
+Fast-forward
+ hmk1/RangePrinter.java | 22 ++++++++++++++++++++++
+ 1 file changed, 22 insertions(+)
+ 
+git branch
+  feature-1
+* main
+
+git branch feature-2
+
+git branch feature-3
+
+git branch
+  feature-1
+  feature-2
+  feature-3
+* main
+
+git checkout feature-2
+Switched to branch 'feature-2'
+
+ls
+RangePrinter.java
+
+nano RangePrinter.java
+
+git status
+On branch feature-2
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   RangePrinter.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+git add RangePrinter.java
+
+git commit -m "satisfying requirement change two"
+[feature-2 b4c2c80] satisfying requirement change two
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+git log
+commit b4c2c80c3100ece28c92b942317763c9c0b702bd (HEAD -> feature-2)
+Author: Tuna Bayramoğlu <tunabayram34@gmail.com>
+Date:   Wed Dec 31 17:30:00 2025 +0300
+
+    satisfying requirement change two
+
+commit 4d794bd7ad6a73adc2b889fea7cb4cc6e6385c13 (main, feature-3, feature-1)
+Author: Tuna Bayramoğlu <tunabayram34@gmail.com>
+Date:   Wed Dec 31 17:14:57 2025 +0300
+
+    satifying requirement one
+
+commit beca6227d23d784a4bc4f09647a4d2e61023bc3f
+Author: Tuna Bayramoğlu <tunabayram34@gmail.com>
+Date:   Wed Dec 31 16:53:17 2025 +0300
+
+    setting up gitignore
+
+commit ab533e91acfa3642c80bb2e8393fd0eb3584fda5 (origin/main, origin/HEAD)
+Author: Tuna Bayramoğlu <64008935+tunabayramoglu@users.noreply.github.com>
+Date:   Wed Dec 31 16:22:36 2025 +0300
+
+    Create homework4.txt
+
+
+Step k:
+git checkout feature-3
+Switched to branch 'feature-3'
+
+nano RangePrinter.java
+
+git status
+On branch feature-3
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   RangePrinter.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+git add RangePrinter.java
+
+git commit -m "satisfying requirement change three"
+[feature-3 7ecfa3f] satisfying requirement change three
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+
+Step l:
+git branch
+  feature-1
+  feature-2
+* feature-3
+  main
+
+git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+git merge feature-2
+Updating 4d794bd..b4c2c80
+Fast-forward
+ hmk1/RangePrinter.java | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+
+Step m:
+git merge feature-3
+Auto-merging hmk1/RangePrinter.java
+CONFLICT (content): Merge conflict in hmk1/RangePrinter.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+nano RangePrinter.java
+
+git commit -m "Merged feature-3 into main and resolved conflict"
+[main 575ec5a] Merged feature-3 into main and resolved conflict
+
+git diff feature-1
+diff --git a/hmk1/RangePrinter.java b/hmk1/RangePrinter.java
+index 57927ae..2d57ac8 100644
+--- a/hmk1/RangePrinter.java
++++ b/hmk1/RangePrinter.java
+@@ -15,7 +15,9 @@ public class RangePrinter{
+
+                System.out.print("Numbers between " + start + " and " + end + ": ");
+                for(int i = start + 1 ; i < end; i++){
+-                       System.out.print(i + " ");
++                       if (i % 2 == 0){
++                               System.out.print(i + " ");
++                       }
+                }
+                System.out.println();
+        }
+
+git diff feature-2
+diff --git a/hmk1/RangePrinter.java b/hmk1/RangePrinter.java
+index dd960bd..2d57ac8 100644
+--- a/hmk1/RangePrinter.java
++++ b/hmk1/RangePrinter.java
+@@ -15,7 +15,7 @@ public class RangePrinter{
+
+                System.out.print("Numbers between " + start + " and " + end + ": ");
+                for(int i = start + 1 ; i < end; i++){
+-                       if (i % 2 != 0){
++                       if (i % 2 == 0){
+                                System.out.print(i + " ");
+                        }
+                }
+
+git diff feature-3
+
+Step n:
+git push origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 18 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 596 bytes | 596.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/tunabayramoglu/soft2101-hw4-repo
+   b4c2c80..575ec5a  main -> main
+
+git push origin feature-1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'feature-1' on GitHub by visiting:
+remote:      https://github.com/tunabayramoglu/soft2101-hw4-repo/pull/new/feature-1
+remote:
+To https://github.com/tunabayramoglu/soft2101-hw4-repo
+ * [new branch]      feature-1 -> feature-1
+
+git push origin feature-2
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'feature-2' on GitHub by visiting:
+remote:      https://github.com/tunabayramoglu/soft2101-hw4-repo/pull/new/feature-2
+remote:
+To https://github.com/tunabayramoglu/soft2101-hw4-repo
+ * [new branch]      feature-2 -> feature-2
+
+git push origin feature-3
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'feature-3' on GitHub by visiting:
+remote:      https://github.com/tunabayramoglu/soft2101-hw4-repo/pull/new/feature-3
+remote:
+To https://github.com/tunabayramoglu/soft2101-hw4-repo
+ * [new branch]      feature-3 -> feature-3
+
+
+Step o:
+cd ../
+
+ls
+README.md  hmk1/  hwk4/
+
+cd hwk4
+
+ls
+homework4.txt
+
+nano homework4.txt
 
