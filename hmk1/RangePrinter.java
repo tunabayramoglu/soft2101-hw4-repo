@@ -15,7 +15,9 @@ public class RangePrinter{
 
 		System.out.print("Numbers between " + start + " and " + end + ": ");
 		for(int i = start + 1 ; i < end; i++){
-			System.out.print(i + " ");
+			if (i % 2 == 0){
+				System.out.print(i + " ");
+			}
 		}
 		System.out.println();
 	}
